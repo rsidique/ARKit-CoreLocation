@@ -39,7 +39,7 @@ public enum LocationEstimateMethod {
 
 //Should conform to delegate here, add in future commit
 @available(iOS 11.0, *)
-public class SceneLocationView: ARSCNView, ARSCNViewDelegate {
+open class SceneLocationView: ARSCNView, ARSCNViewDelegate {
     ///The limit to the scene, in terms of what data is considered reasonably accurate.
     ///Measured in meters.
     private static let sceneLimit = 100.0
